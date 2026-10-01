@@ -1,677 +1,254 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <title>Dev Silva | Desenvolvedor Full Stack</title>
 
-  <title>
-    Dev Silva | Desenvolvedor Full Stack
-  </title>
-
-
-  <!-- FONTES -->
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
-    rel="preconnect"
-    href="https://fonts.googleapis.com"
-  >
-
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oxanium:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
     rel="stylesheet"
   >
 
-
-  <!-- DEVICON -->
-
+  <!-- Devicon -->
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
   >
 
-
-  <link
-    rel="stylesheet"
-    href="style.css"
-  >
-
+  <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
-
-  <!-- =====================================================
-       HEADER
-  ====================================================== -->
-
+  <!-- HEADER -->
   <header class="header">
 
     <div class="header-container">
 
+      <a href="#inicio" class="logo">
 
-      <!-- LOGO -->
+        <span class="logo-symbol">S</span>
 
-      <a
-        href="#inicio"
-        class="logo"
-        aria-label="Dev Silva - Início"
-      >
-
-        <span class="logo-mark">
-
-          <span class="logo-d">
-            D
-          </span>
-
-          <span class="logo-s">
-            S
-          </span>
-
-        </span>
-
-
-        <span class="logo-wordmark">
-
-          <span>
-            DEV
-          </span>
-
-          <strong>
-            SILVA
-          </strong>
-
+        <span class="logo-name">
+          <span>Dev</span>
+          <strong>Silva</strong>
         </span>
 
       </a>
 
 
-      <!-- MENU DESKTOP / MOBILE -->
+      <nav class="nav">
 
-      <nav
-        class="nav"
-        id="site-nav"
-        aria-label="Navegação principal"
-      >
-
-        <a
-          href="#inicio"
-          class="nav-link active"
-          data-i18n="navHome"
-        >
-          <span class="nav-number">
-            01
-          </span>
-
-          <span class="nav-text">
-            Início
-          </span>
-
-          <span class="nav-arrow">
-            ↗
-          </span>
+        <a href="#inicio" class="nav-link active">
+          Início
         </a>
 
-
-        <a
-          href="#sobre"
-          class="nav-link"
-          data-i18n="navAbout"
-        >
-          <span class="nav-number">
-            02
-          </span>
-
-          <span class="nav-text">
-            Sobre
-          </span>
-
-          <span class="nav-arrow">
-            ↗
-          </span>
+        <a href="#sobre" class="nav-link">
+          Sobre
         </a>
 
-
-        <a
-          href="#tecnologias"
-          class="nav-link"
-          data-i18n="navTech"
-        >
-          <span class="nav-number">
-            03
-          </span>
-
-          <span class="nav-text">
-            Tecnologias
-          </span>
-
-          <span class="nav-arrow">
-            ↗
-          </span>
+        <a href="#tecnologias" class="nav-link">
+          Tecnologias
         </a>
 
-
-        <a
-          href="#projetos"
-          class="nav-link"
-          data-i18n="navProjects"
-        >
-          <span class="nav-number">
-            04
-          </span>
-
-          <span class="nav-text">
-            Projetos
-          </span>
-
-          <span class="nav-arrow">
-            ↗
-          </span>
+        <a href="#projetos" class="nav-link">
+          Projetos
         </a>
 
-
-        <a
-          href="#contato"
-          class="nav-link"
-          data-i18n="navContact"
-        >
-          <span class="nav-number">
-            05
-          </span>
-
-          <span class="nav-text">
-            Contato
-          </span>
-
-          <span class="nav-arrow">
-            ↗
-          </span>
+        <a href="#contato" class="nav-link">
+          Contato
         </a>
 
       </nav>
 
 
-      <!-- AÇÕES -->
-
-      <div class="header-actions">
-
-
-        <!-- IDIOMA -->
-
-        <div
-          class="language-switch"
-          aria-label="Seleção de idioma"
-        >
-
-          <button
-            type="button"
-            class="language-button active"
-            data-language="pt-BR"
-          >
-            PT
-          </button>
-
-          <button
-            type="button"
-            class="language-button"
-            data-language="en"
-          >
-            EN
-          </button>
-
-        </div>
-
-
-        <!-- MENU MOBILE -->
-
-        <button
-          type="button"
-          class="menu-button"
-          aria-label="Abrir menu"
-          aria-expanded="false"
-          aria-controls="site-nav"
-        >
-
-          <span></span>
-          <span></span>
-          <span></span>
-
-        </button>
-
-      </div>
+      <!-- MENU MOBILE -->
+      <button
+        class="menu-button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
     </div>
 
   </header>
 
 
-
-  <!-- =====================================================
-       MAIN
-  ====================================================== -->
-
   <main>
 
-
-    <!-- ===================================================
-         HERO
-    ==================================================== -->
-
-    <section
-      class="hero"
-      id="inicio"
-    >
+    <!-- HERO -->
+    <section class="hero" id="inicio">
 
       <div class="hero-content">
 
-
-        <p
-          class="section-tag"
-          data-i18n="heroTag"
-        >
-          // DESENVOLVEDOR FULL STACK EM FORMAÇÃO
+        <p class="section-tag">
+          DESENVOLVEDOR FULL STACK EM FORMAÇÃO
         </p>
 
 
         <h1>
 
-          <span
-            class="hero-line"
-            data-i18n="heroHello"
-          >
+          <span class="intro">
             Olá,
           </span>
 
-
-          <span class="hero-line hero-name">
-
-            <span data-i18n="heroIAm">
-              eu sou o
-            </span>
-
-            <strong>
-              Dev Silva
-            </strong>
-
-            <span class="title-dot">
-              .
-            </span>
-
+          <span class="nome">
+            eu sou o <strong>Dev Silva.</strong>
           </span>
 
         </h1>
 
 
-        <p
-          class="hero-description"
-          data-i18n="heroDescription"
-        >
+        <p class="hero-description">
           Estudante de Engenharia de Software construindo minha
           jornada no desenvolvimento web, transformando ideias
           em projetos através da tecnologia.
         </p>
 
 
-        <div class="hero-buttons">
-
-          <a
-            href="#sobre"
-            class="btn btn-outline"
-          >
-
-            <span data-i18n="aboutButton">
-              Sobre mim
-            </span>
-
-            <span class="btn-arrow">
-              →
-            </span>
-
-          </a>
-
-
-          <a
-            href="#contato"
-            class="btn btn-primary"
-          >
-
-            <span data-i18n="contactButton">
-              Fala comigo
-            </span>
-
-            <span class="btn-arrow">
-              →
-            </span>
-
-          </a>
-
-        </div>
-
-
-
-        <!-- BORA NA TECH -->
-
-        <div class="bora-card">
-
-          <div class="bora-card-top">
-
-            <div>
-
-              <span class="bora-label">
-                BORA NA TECH
-              </span>
-
-              <p data-i18n="boraDescription">
-                Use meu cupom e aproveite 20% OFF.
-              </p>
-
-            </div>
-
-
-            <a
-              href="https://boranatech.com.br/planos?ref=SILVA20"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="bora-link"
-              data-i18n="boraAccess"
-            >
-              Acessar ↗
-            </a>
-
-          </div>
-
-
-          <div class="bora-cupom-area">
-
-            <div class="bora-codigo">
-
-              <span data-i18n="couponLabel">
-                CUPOM
-              </span>
-
-              <strong id="cupomBora">
-                SILVA20
-              </strong>
-
-            </div>
-
-
-            <button
-              type="button"
-              class="bora-copy"
-              id="copiarCupom"
-            >
-
-              <span data-i18n="copyCoupon">
-                Copiar código
-              </span>
-
-            </button>
-
-          </div>
-
-
-          <span
-            class="bora-feedback"
-            id="feedbackCupom"
-            data-i18n="copied"
-          >
-            Código copiado!
-          </span>
-
-        </div>
-
-      </div>
-
-
-
-      <!-- CODE CARD -->
-
-      <div class="hero-visual">
-
-        <div class="code-card">
-
-          <div class="code-header">
-
-            <div class="code-dots">
-
-              <span></span>
-              <span></span>
-              <span></span>
-
-            </div>
-
-            <span class="code-file">
-              dev-silva.js
-            </span>
-
-          </div>
-
-
-          <div class="code-body">
-
-
-            <div class="code-line">
-
-              <span class="line-number">
-                01
-              </span>
-
-              <span class="code">
-
-                <span class="purple">
-                  const
-                </span>
-
-                <span class="white">
-                  dev
-                </span>
-
-                <span class="blue">
-                  =
-                </span>
-
-                <span class="green">
-                  {
-                </span>
-
-              </span>
-
-            </div>
-
-
-            <div class="code-line">
-
-              <span class="line-number">
-                02
-              </span>
-
-              <span class="code">
-
-                <span class="white indent">
-                  nome:
-                </span>
-
-                <span class="yellow">
-                  "Lucas"
-                </span>
-
-                <span class="white">
-                  ,
-                </span>
-
-              </span>
-
-            </div>
-
-
-            <div class="code-line">
-
-              <span class="line-number">
-                03
-              </span>
-
-              <span class="code">
-
-                <span class="white indent">
-                  cargo:
-                </span>
-
-                <span class="yellow">
-                  "Full Stack em formação"
-                </span>
-
-                <span class="white">
-                  ,
-                </span>
-
-              </span>
-
-            </div>
-
-
-            <div class="code-line">
-
-              <span class="line-number">
-                04
-              </span>
-
-              <span class="code">
-
-                <span class="white indent">
-                  stack:
-                </span>
-
-                <span class="green">
-                  [
-                </span>
-
-                <span class="yellow">
-                  "HTML"
-                </span>
-
-                <span class="white">
-                  ,
-                </span>
-
-                <span class="yellow">
-                  "CSS"
-                </span>
-
-                <span class="white">
-                  ,
-                </span>
-
-                <span class="yellow">
-                  "JavaScript"
-                </span>
-
-                <span class="green">
-                  ]
-                </span>
-
-                <span class="white">
-                  ,
-                </span>
-
-              </span>
-
-            </div>
-
-
-            <div class="code-line">
-
-              <span class="line-number">
-                05
-              </span>
-
-              <span class="code">
-
-                <span class="white indent">
-                  foco:
-                </span>
-
-                <span class="yellow">
-                  "Evoluir todos os dias"
-                </span>
-
-              </span>
-
-            </div>
-
-
-            <div class="code-line">
-
-              <span class="line-number">
-                06
-              </span>
-
-              <span class="code">
-
-                <span class="green">
-                  }
-                </span>
-
-                <span class="blue">
-                  ;
-                </span>
-
-              </span>
-
-            </div>
-
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- ===================================================
-         SOBRE
-    ==================================================== -->
-
-    <section
-      class="section"
-      id="sobre"
+    <div class="hero-buttons">
+  <a href="#sobre" class="btn btn-outline">
+    Sobre mim
+  </a>
+
+  <a href="#contato" class="btn btn-primary">
+    Fala comigo
+  </a>
+</div>
+
+<div class="bora-card">
+
+  <div class="bora-card-top">
+    <div>
+      <span class="bora-label">BORA NA TECH</span>
+      <p>Use meu cupom e aproveite 20% OFF.</p>
+    </div>
+
+    <a
+      href="https://boranatech.com.br/planos?ref=SILVA20"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="bora-link"
     >
+      Acessar
+    </a>
+  </div>
+
+  <div class="bora-cupom-area">
+    <div class="bora-codigo">
+      <span>CUPOM</span>
+      <strong id="cupomBora">SILVA20</strong>
+    </div>
+
+    <button class="bora-copy" id="copiarCupom">
+      <span>Copiar código</span>
+    </button>
+  </div>
+
+  <span class="bora-feedback" id="feedbackCupom">
+    Código copiado!
+  </span>
+
+</div>
+
+      </div>
+
+
+     <div class="code-card">
+
+  <div class="code-header">
+    <div class="code-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <span class="code-file">dev-silva.js</span>
+  </div>
+
+  <div class="code-body">
+
+    <div class="code-line">
+      <span class="line-number">01</span>
+      <span class="code">
+        <span class="purple">const</span>
+        <span class="white"> dev</span>
+        <span class="blue"> = </span>
+        <span class="green">{</span>
+      </span>
+    </div>
+
+    <div class="code-line">
+      <span class="line-number">02</span>
+      <span class="code">
+        <span class="white indent">nome:</span>
+        <span class="yellow"> "Lucas"</span><span class="white">,</span>
+      </span>
+    </div>
+
+    <div class="code-line">
+      <span class="line-number">03</span>
+      <span class="code">
+        <span class="white indent">cargo:</span>
+        <span class="yellow"> "Full Stack em formação"</span><span class="white">,</span>
+      </span>
+    </div>
+
+    <div class="code-line">
+      <span class="line-number">04</span>
+      <span class="code">
+        <span class="white indent">stack:</span>
+        <span class="green">[</span>
+        <span class="yellow">"HTML"</span><span class="white">, </span>
+        <span class="yellow">"CSS"</span><span class="white">, </span>
+        <span class="yellow">"JavaScript"</span>
+        <span class="green">]</span><span class="white">,</span>
+      </span>
+    </div>
+
+    <div class="code-line">
+      <span class="line-number">05</span>
+      <span class="code">
+        <span class="white indent">foco:</span>
+        <span class="yellow"> "Evoluir todos os dias"</span>
+      </span>
+    </div>
+
+    <div class="code-line">
+      <span class="line-number">06</span>
+      <span class="code">
+        <span class="green">}</span><span class="blue">;</span>
+      </span>
+    </div>
+
+  </div>
+
+</div>
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
 
       <div class="section-heading">
 
-        <p
-          class="section-tag"
-          data-i18n="aboutTag"
-        >
-          // 01 / SOBRE MIM
-        </p>
+        <div>
+          <p class="section-tag">
+            01 / SOBRE MIM
+          </p>
 
-        <h2>
-
-          <span data-i18n="aboutTitleOne">
+          <h2>
             Construindo minha
-          </span>
-
-          <span data-i18n="aboutTitleTwo">
-            jornada.
-          </span>
-
-        </h2>
+            <span>jornada.</span>
+          </h2>
+        </div>
 
       </div>
 
@@ -680,71 +257,36 @@
 
         <div class="about-text">
 
-          <p data-i18n="aboutText1">
+          <p>
             Sou estudante de Engenharia de Software e atualmente
             estou construindo minha trajetória como desenvolvedor.
           </p>
 
-          <p data-i18n="aboutText2">
+          <p>
             Comecei pelos fundamentos do desenvolvimento web,
             estudando HTML, CSS e JavaScript e criando projetos
             para transformar conhecimento em prática.
           </p>
 
-          <p data-i18n="aboutText3">
+          <p>
             Meu objetivo é continuar evoluindo no desenvolvimento
             Full Stack e construir soluções cada vez mais completas.
           </p>
 
-        </div>
-
-
-        <div class="about-highlight">
-
-          <span data-i18n="highlightLabel">
-            FOCO ATUAL
-          </span>
-
-          <strong data-i18n="highlightText">
-            JavaScript, projetos reais e evolução contínua.
-          </strong>
-
-        </div>
-
-      </div>
-
     </section>
 
-
-
-    <!-- ===================================================
-         TECNOLOGIAS
-    ==================================================== -->
-
-    <section
-      class="section"
-      id="tecnologias"
-    >
+    <!-- TECNOLOGIAS -->
+    <section class="section" id="tecnologias">
 
       <div class="section-heading">
 
-        <p
-          class="section-tag"
-          data-i18n="techTag"
-        >
-          // 02 / TECNOLOGIAS
+        <p class="section-tag">
+          02 / TECNOLOGIAS
         </p>
 
         <h2>
-
-          <span data-i18n="techTitleOne">
-            Ferramentas que
-          </span>
-
-          <span data-i18n="techTitleTwo">
-            utilizo.
-          </span>
-
+          Ferramentas que
+          <span>utilizo.</span>
         </h2>
 
       </div>
@@ -752,23 +294,13 @@
 
       <div class="technologies-grid">
 
-
         <div class="tech-card">
 
-          <div class="tech-icon">
-            <i class="devicon-html5-plain colored"></i>
-          </div>
+          <i class="devicon-html5-plain colored"></i>
 
           <div>
-
-            <h3>
-              HTML5
-            </h3>
-
-            <p data-i18n="htmlDesc">
-              Estrutura web
-            </p>
-
+            <h3>HTML5</h3>
+            <p>Estrutura web</p>
           </div>
 
         </div>
@@ -776,20 +308,11 @@
 
         <div class="tech-card">
 
-          <div class="tech-icon">
-            <i class="devicon-css3-plain colored"></i>
-          </div>
+          <i class="devicon-css3-plain colored"></i>
 
           <div>
-
-            <h3>
-              CSS3
-            </h3>
-
-            <p data-i18n="cssDesc">
-              Estilização e layout
-            </p>
-
+            <h3>CSS3</h3>
+            <p>Estilização e layout</p>
           </div>
 
         </div>
@@ -797,20 +320,11 @@
 
         <div class="tech-card">
 
-          <div class="tech-icon">
-            <i class="devicon-javascript-plain colored"></i>
-          </div>
+          <i class="devicon-javascript-plain colored"></i>
 
           <div>
-
-            <h3>
-              JavaScript
-            </h3>
-
-            <p data-i18n="jsDesc">
-              Interatividade
-            </p>
-
+            <h3>JavaScript</h3>
+            <p>Interatividade</p>
           </div>
 
         </div>
@@ -818,20 +332,11 @@
 
         <div class="tech-card">
 
-          <div class="tech-icon">
-            <i class="devicon-git-plain colored"></i>
-          </div>
+          <i class="devicon-git-plain colored"></i>
 
           <div>
-
-            <h3>
-              Git
-            </h3>
-
-            <p data-i18n="gitDesc">
-              Versionamento
-            </p>
-
+            <h3>Git</h3>
+            <p>Versionamento</p>
           </div>
 
         </div>
@@ -839,20 +344,11 @@
 
         <div class="tech-card">
 
-          <div class="tech-icon">
-            <i class="devicon-github-original"></i>
-          </div>
+          <i class="devicon-github-original"></i>
 
           <div>
-
-            <h3>
-              GitHub
-            </h3>
-
-            <p data-i18n="githubDesc">
-              Projetos e código
-            </p>
-
+            <h3>GitHub</h3>
+            <p>Projetos e código</p>
           </div>
 
         </div>
@@ -860,168 +356,118 @@
 
         <div class="tech-card">
 
-          <div class="tech-icon">
-            <i class="devicon-vscode-plain colored"></i>
-          </div>
+          <i class="devicon-vscode-plain colored"></i>
 
           <div>
-
-            <h3>
-              VS Code
-            </h3>
-
-            <p data-i18n="vscodeDesc">
-              Editor de código
-            </p>
-
+            <h3>VS Code</h3>
+            <p>Editor de código</p>
           </div>
 
         </div>
-
 
       </div>
 
     </section>
 
 
+    <!-- PROJETOS -->
+    <!-- PROJETOS -->
+<section class="section" id="projetos">
 
-    <!-- ===================================================
-         PROJETOS
-    ==================================================== -->
+  <div class="section-heading">
 
-    <section
-      class="section"
-      id="projetos"
-    >
+    <p class="section-tag">
+      03 / PROJETO
+    </p>
 
-      <div class="section-heading">
+    <h2>
+      Um projeto que
+      <span>já desenvolvi.</span>
+    </h2>
 
-        <p
-          class="section-tag"
-          data-i18n="projectTag"
-        >
-          // 03 / PROJETO
-        </p>
+  </div>
 
-        <h2>
 
-          <span data-i18n="projectTitleOne">
-            Um projeto que
-          </span>
+  <div class="projects-grid single-project">
 
-          <span data-i18n="projectTitleTwo">
-            já desenvolvi.
-          </span>
+    <article class="project-card">
 
-        </h2>
+      <div class="project-top">
+
+        <span class="project-number">
+          01
+        </span>
+
+        <span class="project-status">
+          ONLINE
+        </span>
+
+      </div>
+
+
+      <div class="project-icon">
+        <i class="devicon-javascript-plain"></i>
+      </div>
+
+
+      <h3>
+        LR Multi Services
+      </h3>
+
+
+      <p>
+        Aplicação web desenvolvida para criação e gerenciamento
+        de clientes, serviços e orçamentos, com cálculo automático,
+        histórico, geração de PDF e compartilhamento pelo WhatsApp.
+      </p>
+
+
+      <div class="project-tags">
+
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>LocalStorage</span>
 
       </div>
 
 
-      <div class="projects-grid single-project">
+      <a
+        href=https://devsilvaa01.github.io/lr-multi-services/demo.html?demo=1
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-button"
+      >
 
-        <article class="project-card">
+        <span>Ver projeto</span>
 
-          <div class="project-top">
+        
 
-            <span class="project-number">
-              01
-            </span>
+      </a>
 
-            <span class="project-status">
-              ONLINE
-            </span>
+    </article>
 
-          </div>
+  </div>
 
+</section>
 
-          <div class="project-icon">
-
-            <i class="devicon-javascript-plain"></i>
-
-          </div>
-
-
-          <h3>
-            LR Multi Services
-          </h3>
-
-
-          <p data-i18n="projectDescription">
-            Aplicação web desenvolvida para criação e gerenciamento
-            de clientes, serviços e orçamentos, com cálculo automático,
-            histórico, geração de PDF e compartilhamento pelo WhatsApp.
-          </p>
-
-
-          <div class="project-tags">
-
-            <span>JavaScript</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>LocalStorage</span>
-
-          </div>
-
-
-          <a
-            href="https://devsilvaa01.github.io/lr-multi-services/demo.html?demo=1"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="project-button"
-          >
-
-            <span data-i18n="viewProject">
-              Ver projeto
-            </span>
-
-            <strong>
-              ↗
-            </strong>
-
-          </a>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- ===================================================
-         CONTATO
-    ==================================================== -->
-
-    <section
-      class="section"
-      id="contato"
-    >
+    <!-- CONTATO -->
+    <section class="section" id="contato">
 
       <div class="contact-box">
 
         <div class="contact-heading">
 
-          <p
-            class="section-tag"
-            data-i18n="contactTag"
-          >
-            // 04 / CONTATO
+          <p class="section-tag">
+            04 / CONTATO
           </p>
 
           <h2>
-
-            <span data-i18n="contactTitleOne">
-              Vamos construir
-            </span>
-
-            <span data-i18n="contactTitleTwo">
-              algo juntos?
-            </span>
-
+            Vamos construir
+            <span>algo juntos?</span>
           </h2>
 
-          <p data-i18n="contactDescription">
+          <p>
             Estou aberto a oportunidades, projetos e conexões
             na área de tecnologia.
           </p>
@@ -1029,107 +475,87 @@
         </div>
 
 
+        <!-- BOTÕES DE CONTATO -->
         <div class="contact-links">
 
-
-          <!-- GITHUB -->
 
           <a
             href="https://github.com/devsilvaa01"
             target="_blank"
-            rel="noopener noreferrer"
             class="contact-button"
-            aria-label="GitHub"
           >
 
             <span class="contact-icon">
               <i class="devicon-github-original"></i>
             </span>
 
-            <strong>
-              GitHub
-            </strong>
+            <span class="contact-info">
 
-            <span class="contact-arrow">
-              ↗
+              <small>
+                Código e projetos
+              </small>
+
+              <strong>
+                GitHub
+              </strong>
+
             </span>
+
+            
 
           </a>
 
 
-          <!-- LINKEDIN -->
-
           <a
             href="https://www.linkedin.com/in/silvaadev"
             target="_blank"
-            rel="noopener noreferrer"
             class="contact-button"
-            aria-label="LinkedIn"
           >
 
             <span class="contact-icon">
               <i class="devicon-linkedin-plain"></i>
             </span>
 
-            <strong>
-              LinkedIn
-            </strong>
+            <span class="contact-info">
 
-            <span class="contact-arrow">
-              ↗
+              <small>
+                Perfil profissional
+              </small>
+
+              <strong>
+                LinkedIn
+              </strong>
+
             </span>
+
+            
 
           </a>
 
 
-          <!-- INSTAGRAM -->
-
           <a
-            href="https://www.instagram.com/dev_silvaa/"
+            href="https://www.instagram.com/dev.silvaa/"
             target="_blank"
-            rel="noopener noreferrer"
             class="contact-button"
-            aria-label="Instagram"
           >
 
             <span class="contact-icon instagram-icon">
+              ◎
+            </span>
 
-              <svg
-                viewBox="0 0 24 24"
-              >
+            <span class="contact-info">
 
-                <rect
-                  x="3.25"
-                  y="3.25"
-                  width="17.5"
-                  height="17.5"
-                  rx="5"
-                ></rect>
+              <small>
+                Conteúdo dev
+              </small>
 
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="4"
-                ></circle>
-
-                <circle
-                  cx="17.45"
-                  cy="6.65"
-                  r="1.15"
-                  class="fill"
-                ></circle>
-
-              </svg>
+              <strong>
+                Instagram
+              </strong>
 
             </span>
 
-            <strong>
-              Instagram
-            </strong>
-
-            <span class="contact-arrow">
-              ↗
-            </span>
+            
 
           </a>
 
@@ -1140,79 +566,22 @@
 
     </section>
 
-
   </main>
 
 
-
-  <!-- =====================================================
-       FOOTER
-  ====================================================== -->
-
+  <!-- FOOTER -->
   <footer class="footer">
 
+    <p>
+      © 2026 Dev Silva.
+    </p>
 
-    <div class="footer-left">
-
-      <span class="footer-brand">
-
-        
-       
-
-      </span>
-
-
-      <span class="footer-copy">
-        © 2026 Dev Silva
-      </span>
-
-    </div>
-
-
-    <!-- WHATSAPP -->
-
-    <a
-      href="https://wa.me/SEU_NUMERO_AQUI"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="footer-whatsapp"
-      aria-label="WhatsApp"
-    >
-
-      <span class="whatsapp-icon">
-
-        <svg viewBox="0 0 24 24">
-
-          <path
-            d="M20.1 3.9A9.9 9.9 0 0 0 12.04 1C6.6 1 2.18 5.4 2.18 10.82c0 1.73.45 3.42 1.31 4.91L2 23l7.46-1.95a9.83 9.83 0 0 0 2.58.34h.01c5.43 0 9.84-4.41 9.84-9.84a9.78 9.78 0 0 0-1.79-5.65Zm-8.05 15.95h-.01a8.12 8.12 0 0 1-2.36-.35l-.54-.16-4.43 1.16 1.18-4.31-.18-.55a8.17 8.17 0 1 1 6.34 4.21Zm4.47-6.11c-.24-.12-1.4-.69-1.62-.77-.22-.08-.37-.12-.53.12-.16.24-.61.77-.75.93-.14.16-.28.18-.52.06-.24-.12-.99-.37-1.88-1.18-.69-.62-1.16-1.38-1.3-1.62-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.53-1.27-.73-1.74-.19-.45-.39-.39-.53-.4h-.45c-.16 0-.42.06-.65.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.51.58.18 1.1.16 1.51.1.46-.07 1.4-.57 1.6-1.13.2-.56.2-1.03.14-1.13-.06-.1-.22-.16-.46-.28Z"
-          ></path>
-
-        </svg>
-
-      </span>
-
-      <strong>
-        WhatsApp
-      </strong>
-
-      <span class="footer-whatsapp-arrow">
-        ↗
-      </span>
-
-    </a>
-
-
-    <span class="footer-location">
-      GOIÂNIA, BR
-    </span>
-
+GOIÂNIA, BR
 
   </footer>
-
 
 
   <script src="script.js"></script>
 
 </body>
-
 </html>
